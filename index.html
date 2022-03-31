@@ -16,8 +16,35 @@
 <body>
 
 
-    <div class="fancy-slider-activee">
-
+    <div class="fancy-slider-active">
+        <div class="fancy-slider-item">
+            <img class="fancy_vec fancy-vec1" src="./fancy_vec.png" alt="">
+            <img class="fancy_vec fancy-vec2" src="./fancy_vec1.png" alt="">
+            <!-- <img class="fancy_vec fancy-vec3" src="./fancy_vec1.png" alt=""> -->
+            <div class="fancy-title-box">
+                <span class="fancy-title">nicolas</span>
+                <span class="fancy-title">founder <span class="fancy-dot"></span></span>
+            </div>
+            <img class="fancy-item-thumb" alt="Bénédicte" crossorigin="Anonymous"
+                src="https://images.prismic.io/magnetism/78e7b5e5-d0a9-48bc-9c41-452c32e9b639_TETE_BENE.jpg?">
+            <video class="fancy-item-vdo"
+                src="https://magnetism.cdn.prismic.io/magnetism/abdf3b75-6e14-4fd4-abb0-7a367b574faf_TETE_BENE.mp4.mp4"
+                preload="none" playsinline="" autoplay="" muted="muted" loop="loop" crossorigin="Anonymous"></video>
+        </div>
+        <div class="fancy-slider-item">
+            <img class="fancy_vec fancy-vec1" src="./fancy_vec.png" alt="">
+            <img class="fancy_vec fancy-vec2" src="./fancy_vec1.png" alt="">
+            <!-- <img class="fancy_vec fancy-vec3" src="./fancy_vec1.png" alt=""> -->
+            <div class="fancy-title-box">
+                <span class="fancy-title">nicolas</span>
+                <span class="fancy-title">founder <span class="fancy-dot"></span></span>
+            </div>
+            <img class="fancy-item-thumb" alt="Bénédicte" crossorigin="Anonymous"
+                src="https://images.prismic.io/magnetism/78e7b5e5-d0a9-48bc-9c41-452c32e9b639_TETE_BENE.jpg?">
+            <video class="fancy-item-vdo"
+                src="https://magnetism.cdn.prismic.io/magnetism/abdf3b75-6e14-4fd4-abb0-7a367b574faf_TETE_BENE.mp4.mp4"
+                preload="none" playsinline="" autoplay="" muted="muted" loop="loop" crossorigin="Anonymous"></video>
+        </div>
         <div class="fancy-slider-item">
             <img class="fancy_vec fancy-vec1" src="./fancy_vec.png" alt="">
             <img class="fancy_vec fancy-vec2" src="./fancy_vec1.png" alt="">
@@ -182,7 +209,8 @@
             $('.fancy-slider-active').slick({
                 infinite: true,
                 slidesToShow: 4,
-                slidesToScroll: 3
+                slidesToScroll: 3,
+                centerPadding: '40px',
             });
         });
     </script>

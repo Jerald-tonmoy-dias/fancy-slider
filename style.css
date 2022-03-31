@@ -46,21 +46,29 @@ z-index: 1;
   position: absolute;
   z-index: 10;
   transition: .3s;
+ 
 }
 .fancy-vec1 {
-  top: 24%;
+  /* top: 24%;
+  left: 0%; */
+  top: 0%;
   left: 0%;
   opacity: 0;
   visibility: hidden;
+  transform: scale(10);
   /* transform: rotate(0eg) scale(1); */
 
 }
 .fancy-vec2 {
-  bottom: 22%;
-  right: 16%;
+  /* bottom: 22%;
+  right: 16%; */
+  bottom: 1%;
+  right: 0%;
   opacity: 0;
   visibility: hidden;
+  transform: scale(10);
 }
+
 
 .fancy-slider-item:hover .fancy-vec1 {
   top: 0%;
@@ -68,6 +76,7 @@ z-index: 1;
     opacity: 1;
     visibility: visible;
     /* transform: rotate(68deg) scale(1.5); */
+    transform: scale(1);
   
   } 
 .fancy-slider-item:hover .fancy-vec2 {
@@ -75,6 +84,7 @@ z-index: 1;
   right: 0%;
   opacity: 1;
   visibility: visible;
+  transform: scale(1);
   }
   
 .fancy-dot {
