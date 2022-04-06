@@ -1,3 +1,12 @@
+ /* the slides */
+ .slick-slide {
+	margin: 0 20px;
+}
+/* the parent */
+.slick-list {
+	margin: 0 -20px;
+}
+
 .fancy-item-size{
   width: 400px;
   overflow: hidden;
