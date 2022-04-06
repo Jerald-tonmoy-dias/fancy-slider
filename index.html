@@ -120,6 +120,26 @@
                 arrows: false,
                 slidesToScroll: 1,
                 // centerPadding: '40px',
+                responsive: [
+                    {
+                        breakpoint: 1440,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
             });
         });
     </script>
